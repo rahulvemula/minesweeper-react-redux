@@ -5,6 +5,7 @@ Find the live version of the app [here](https://rahulvemula.github.io/minesweepe
 ## Learnings
 - React (using hooks in functional components)
 - Redux (using the redux store, actions and reducers)
+- Neumorphic design
 - CSS variables
 - Github pages (to host the site)
 
