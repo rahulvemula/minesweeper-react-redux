@@ -2,6 +2,12 @@
 
 Find the live version of the app [here](https://rahulvemula.github.io/minesweeper-react-redux/)
 
+## Learnings
+- React (using hooks in functional components)
+- Redux (using the redux store, actions and reducers)
+- CSS variables
+- Github pages (to host the site)
+
 ## Available Scripts
 
 In the project directory, you can run:
