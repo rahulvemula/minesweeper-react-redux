@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/minesweeper-react-redux/static/css/main.5f272495.chunk.css",
+    "main.js": "/minesweeper-react-redux/static/js/main.0cc2a5e3.chunk.js",
+    "main.js.map": "/minesweeper-react-redux/static/js/main.0cc2a5e3.chunk.js.map",
+    "runtime-main.js": "/minesweeper-react-redux/static/js/runtime-main.9a158dbf.js",
+    "runtime-main.js.map": "/minesweeper-react-redux/static/js/runtime-main.9a158dbf.js.map",
+    "static/js/2.a3caa398.chunk.js": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js",
+    "static/js/2.a3caa398.chunk.js.map": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js.map",
+    "index.html": "/minesweeper-react-redux/index.html",
+    "precache-manifest.6cfbd1cb08b3bb657dde9214f16e0d5b.js": "/minesweeper-react-redux/precache-manifest.6cfbd1cb08b3bb657dde9214f16e0d5b.js",
+    "service-worker.js": "/minesweeper-react-redux/service-worker.js",
+    "static/css/main.5f272495.chunk.css.map": "/minesweeper-react-redux/static/css/main.5f272495.chunk.css.map",
+    "static/js/2.a3caa398.chunk.js.LICENSE.txt": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js.LICENSE.txt",
+    "static/media/bomb.svg": "/minesweeper-react-redux/static/media/bomb.9703aa7c.svg",
+    "static/media/flag.svg": "/minesweeper-react-redux/static/media/flag.c71b9d14.svg",
+    "static/media/happy.svg": "/minesweeper-react-redux/static/media/happy.63d6e061.svg",
+    "static/media/in-love.svg": "/minesweeper-react-redux/static/media/in-love.f350c24f.svg",
+    "static/media/sad.svg": "/minesweeper-react-redux/static/media/sad.44bda2f3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a158dbf.js",
+    "static/js/2.a3caa398.chunk.js",
+    "static/css/main.5f272495.chunk.css",
+    "static/js/main.0cc2a5e3.chunk.js"
+  ]
+}
