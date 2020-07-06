@@ -74,13 +74,13 @@ function Game() {
         <section className={store.darkmode ? "App__buttons dark" : "App__buttons"}>
           <button onClick={(e) => dispatch(reset(e))}>
             {
-              store.blasted ? <img width="15px" height="15px" src={cryingsvg} style={{ 'margin-right': "5px" }}></img> :
+              store.blasted ? <img width="15px" height="15px" src={cryingsvg} alt="sad" style={{ 'margin-right': "5px" }}></img> :
                 (store.remaining === store.mines) ?
-                  <img width="15px" height="15px" src={coolsvg} style={{ 'margin-right': "5px" }}></img> :
-                  <img width="15px" height="15px" src={confusionsvg} style={{ 'margin-right': "5px" }}></img>
+                  <img width="15px" height="15px" alt="cool" src={coolsvg} style={{ 'margin-right': "5px" }}></img> :
+                  <img width="15px" height="15px" alt="reset" src={confusionsvg} style={{ 'margin-right': "5px" }}></img>
             }Reset</button>
           <button style={getFlagButtonStyle(store.flagMode, store.darkmode)} onClick={(e) => dispatch(toggleFlagMode(e))}>
-            <img width="15px" height="15px" src={flagsvg}></img> Flag Mode</button>
+            <img width="15px" height="15px" src={flagsvg} alt="flag"></img> Flag Mode</button>
         </section>
         <div className="grid">
           <table>
