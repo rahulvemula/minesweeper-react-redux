@@ -1,3 +1,7 @@
+## Live version
+
+Find the live version of the app [here](https://rahulvemula.github.io/minesweeper-react-redux/)
+
 ## Available Scripts
 
 In the project directory, you can run:
