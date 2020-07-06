@@ -1,0 +1,172 @@
+.App {
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App__buttons > button {
+  outline: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 0;
+  box-shadow: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #030303;
+  box-shadow: -12px 36px 54px 18px rgba(34, 39, 53, 0.43);
+  border-radius: 5px;
+  color: #4a4a4a;
+
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+}
+
+.headerButton{
+  outline: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.6rem;
+  border: 0;
+  box-shadow: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #030303;
+  box-shadow: -12px 36px 54px 18px rgba(34, 39, 53, 0.43);
+  border-radius: 5px;
+  color: #4a4a4a;
+
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+}
+
+.how{
+  outline: 0;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.6rem;
+  border: 0;
+  box-shadow: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #030303;
+  box-shadow: -12px 36px 54px 18px rgba(34, 39, 53, 0.43);
+  border-radius: 30px;
+  color: #4a4a4a;
+  right: 4%;
+  bottom: 5%;
+  float: right;
+  position: fixed;
+  height: 20px;
+  width:20px;
+  text-align:center;
+
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+}
+
+header{
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+}
+
+.grid {
+  /*background-color: #181818;*/
+  margin: auto;
+  
+}
+
+td > button {
+  /*
+  outline: 0;
+  background: #fff;
+  color: #fe718f;
+  height: 44px;
+  width: 44px;
+  border: 0;
+  box-shadow: none;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  align-self: center;
+  font-weight: bold;
+  border-radius: 11px;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.02);
+
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  */
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  height: 2.2rem;
+  width: 2.2rem;
+  margin: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  border: 0;
+  color: #4a4a4a;
+  background: transparent;
+  position: relative;
+  box-shadow: 0.2rem 0.2rem 0.6rem #c1d3ea, -0.2rem -0.2rem 0.6rem white, -0.05rem -0.05rem 0.05rem white;
+  -webkit-transition: all 120ms ease-out 0s;
+  transition: all 120ms ease-out 0s;
+}
+
+.dark header{
+  background-color: #181818;
+  color: #E0E5EC;
+  box-shadow: 9px 9px 16px rgb(10,10,10,0.6), -9px -9px 16px rgba(0,0,0, 0.5);
+}
+
+.dark button{
+  background-color: #181818;
+  color: #E0E5EC;
+  box-shadow: 0.2rem 0.2rem 0.6rem #1f2225, -0.2rem -0.2rem 0.6rem black, -0.05rem -0.05rem 0.05rem black;
+  -webkit-transition: all 120ms ease-out 0s;
+  transition: all 120ms ease-out 0s;
+}
+
+.dark .how{
+  background-color: #181818;
+  color: #E0E5EC;
+  box-shadow: 9px 9px 16px rgb(10,10,10,0.6), -9px -9px 16px rgba(0,0,0, 0.5);
+}
+
+.dark span{
+  color:#E0E5EC;
+}
+
+.card{
+  right: 4%;
+  bottom: 5%;
+  float: right;
+  position: fixed;
+  width:20%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0.2rem 0.2rem 0.6rem #c1d3ea, -0.2rem -0.2rem 0.6rem white, -0.05rem -0.05rem 0.05rem white;
+}
+
+.card a {
+  padding:15px;
+}
+
+.dark .card{
+  box-shadow: 9px 9px 16px rgb(10,10,10,0.6), -9px -9px 16px rgba(0,0,0, 0.5);
+}
+
+.textCenter{
+  text-align:center;
+}
+
+.card li {
+  padding-bottom: 15px;
+}
