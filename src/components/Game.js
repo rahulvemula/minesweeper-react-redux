@@ -10,7 +10,7 @@ import cryingsvg from '../images/sad.svg';
 import confusionsvg from '../images/happy.svg';
 
 
-function Test() {
+function Game() {
 
   const store = useSelector(state => state);
   const dispatch = useDispatch();
@@ -115,4 +115,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Game;
