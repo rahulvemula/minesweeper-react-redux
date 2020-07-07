@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/minesweeper-react-redux/static/css/main.f758ba69.chunk.css",
-    "main.js": "/minesweeper-react-redux/static/js/main.b8cab07d.chunk.js",
-    "main.js.map": "/minesweeper-react-redux/static/js/main.b8cab07d.chunk.js.map",
+    "main.js": "/minesweeper-react-redux/static/js/main.e4340f21.chunk.js",
+    "main.js.map": "/minesweeper-react-redux/static/js/main.e4340f21.chunk.js.map",
     "runtime-main.js": "/minesweeper-react-redux/static/js/runtime-main.9a158dbf.js",
     "runtime-main.js.map": "/minesweeper-react-redux/static/js/runtime-main.9a158dbf.js.map",
     "static/js/2.a3caa398.chunk.js": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js",
     "static/js/2.a3caa398.chunk.js.map": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js.map",
     "index.html": "/minesweeper-react-redux/index.html",
-    "precache-manifest.d0deeff4622f368a6e076dc649f600f3.js": "/minesweeper-react-redux/precache-manifest.d0deeff4622f368a6e076dc649f600f3.js",
+    "precache-manifest.766c709fde3c586b633983b1a437f1ac.js": "/minesweeper-react-redux/precache-manifest.766c709fde3c586b633983b1a437f1ac.js",
     "service-worker.js": "/minesweeper-react-redux/service-worker.js",
     "static/css/main.f758ba69.chunk.css.map": "/minesweeper-react-redux/static/css/main.f758ba69.chunk.css.map",
     "static/js/2.a3caa398.chunk.js.LICENSE.txt": "/minesweeper-react-redux/static/js/2.a3caa398.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.9a158dbf.js",
     "static/js/2.a3caa398.chunk.js",
     "static/css/main.f758ba69.chunk.css",
-    "static/js/main.b8cab07d.chunk.js"
+    "static/js/main.e4340f21.chunk.js"
   ]
 }
