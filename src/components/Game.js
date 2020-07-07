@@ -38,13 +38,13 @@ function Game() {
       style["fontWeight"] = "bold";
     }
     if (element.value === 1) {
-      style.color = "green";
+      style.color = "#48BB78";
     }
     if (element.value === 2) {
       style.color = "#D69E2E";
     }
     if (element.value >= 3) {
-      style.color = "red";
+      style.color = "#F56565";
     }
     return style;
   }
