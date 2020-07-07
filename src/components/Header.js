@@ -12,12 +12,12 @@ function Header() {
   return (
     <div className={store.darkmode ? "dark" : ""}>
       <header className="header" style={{ 'display': 'flex', 'margin-bottom': '15px', 'justify-content': 'space-between' }}>
-        <div style={{ 'display': 'flex', 'margin-left': '30px' }}>
+        <div className="logo">
           <img src={logo} style={{ 'margin': '10px' }} height="40px" width="40px" className="App-logo" alt="logo" />
           <h2 style={{ 'margin-top': '18px' }}>MINESWEEPER</h2>
         </div>
         <div className={store.darkmode ? "dark" : ""}>
-          <button onClick={(e) => dispatch(toggleDarkMode(e))} className="headerButton" style={{ 'float': 'right', 'margin-right': '40px' }}>
+          <button onClick={(e) => dispatch(toggleDarkMode(e))} className="headerButton">
             <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon c-button__icon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
           </button>
           {store.instructions &&

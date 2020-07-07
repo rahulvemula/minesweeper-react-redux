@@ -40,6 +40,8 @@
 
   background-color:#E0E5EC;
   box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  float: right;
+  margin-right: 40px;
 }
 
 .how{
@@ -62,7 +64,7 @@
   height: 20px;
   width:20px;
   text-align:center;
-
+  z-index:2;
   background-color:#E0E5EC;
   box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
 }
@@ -152,6 +154,8 @@ td > button {
   width:20%;
   padding: 20px;
   border-radius: 10px;
+  z-index:1;
+  background: #E0E5EC;
   box-shadow: 0.2rem 0.2rem 0.6rem #c1d3ea, -0.2rem -0.2rem 0.6rem white, -0.05rem -0.05rem 0.05rem white;
 }
 
@@ -161,6 +165,7 @@ td > button {
 
 .dark .card{
   box-shadow: 9px 9px 16px rgb(10,10,10,0.6), -9px -9px 16px rgba(0,0,0, 0.5);
+  background: #181818;
 }
 
 .textCenter{
@@ -169,4 +174,36 @@ td > button {
 
 .card li {
   padding-bottom: 15px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 30px;
+}
+
+.grid {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .card {
+    width: 75%;
+  }
+
+  td > button {
+    height: 1.1rem;
+    width: 1.1rem;
+    margin: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: small;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .headerButton{
+    margin-right: 15px;
+  }
 }
