@@ -31,11 +31,11 @@ function Game() {
     let style = {}
     if (element.revealed) {
       if (dark) {
-        style["box-shadow"] = "inset 3px 3px 6px rgb(52, 52, 49), inset -3px -3px 6px #000000";
+        style["boxShadow"] = "inset 3px 3px 6px rgb(52, 52, 49), inset -3px -3px 6px #000000";
       } else {
-        style["box-shadow"] = "inset 3px 3px 6px #bec3c9, inset -3px -3px 6px #ffffff";
+        style["boxShadow"] = "inset 3px 3px 6px #bec3c9, inset -3px -3px 6px #ffffff";
       }
-      style["font-weight"] = "bold";
+      style["fontWeight"] = "bold";
     }
     if (element.value === 1) {
       style.color = "green";
@@ -53,9 +53,9 @@ function Game() {
     let style = {};
     if (mode) {
       if (dark) {
-        style["box-shadow"] = "inset 3px 3px 6px rgb(52, 52, 49), inset -3px -3px 6px #000000";
+        style["boxShadow"] = "inset 3px 3px 6px rgb(52, 52, 49), inset -3px -3px 6px #000000";
       } else {
-        style["box-shadow"] = "inset 3px 3px 6px #bec3c9, inset -3px -3px 6px #ffffff";
+        style["boxShadow"] = "inset 3px 3px 6px #bec3c9, inset -3px -3px 6px #ffffff";
       }
       style["color"] = "#F56565";
     }
@@ -74,10 +74,10 @@ function Game() {
         <section className={store.darkmode ? "App__buttons dark" : "App__buttons"}>
           <button onClick={(e) => dispatch(reset(e))}>
             {
-              store.blasted ? <img width="15px" height="15px" src={cryingsvg} alt="sad" style={{ 'margin-right': "5px" }}></img> :
+              store.blasted ? <img width="15px" height="15px" src={cryingsvg} alt="sad" style={{ 'marginRight': "5px" }}></img> :
                 (store.remaining === store.mines) ?
-                  <img width="15px" height="15px" alt="cool" src={coolsvg} style={{ 'margin-right': "5px" }}></img> :
-                  <img width="15px" height="15px" alt="reset" src={confusionsvg} style={{ 'margin-right': "5px" }}></img>
+                  <img width="15px" height="15px" alt="cool" src={coolsvg} style={{ 'marginRight': "5px" }}></img> :
+                  <img width="15px" height="15px" alt="reset" src={confusionsvg} style={{ 'marginRight': "5px" }}></img>
             }Reset</button>
           <button style={getFlagButtonStyle(store.flagMode, store.darkmode)} onClick={(e) => dispatch(toggleFlagMode(e))}>
             <img width="15px" height="15px" src={flagsvg} alt="flag"></img> Flag Mode</button>
