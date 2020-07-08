@@ -1,5 +1,4 @@
 import React from "react";
-//import formatNumber from "format-number";
 import { revealCell, reset, toggleFlagMode, flagCell } from "../actions";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -96,8 +95,8 @@ function Game() {
                           onClick={(e) => dispatch(store.flagMode ? flag(e) : reveal(e))}
                           disabled={store.blasted || element.revealed || store.remaining === store.mines}>
                           {element.revealed ?
-                            (element.mine ? <img data-i={i} data-j={j} width="20px" height="20px" src={bombsvg}></img> : (element.value === 0 ? "" : element.value)) :
-                            (element.flagged ? <img data-i={i} data-j={j} width="15px" height="15px" src={flagsvg}></img> : " ")}
+                            (element.mine ? <img data-i={i} data-j={j} alt="bomb" width="20px" height="20px" src={bombsvg}></img> : (element.value === 0 ? "" : element.value)) :
+                            (element.flagged ? <img data-i={i} data-j={j} alt="flag" width="15px" height="15px" src={flagsvg}></img> : " ")}
                         </button>
                       </td>
                     );
