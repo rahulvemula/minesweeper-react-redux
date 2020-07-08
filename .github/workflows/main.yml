@@ -22,6 +22,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: git setup
+      run: /
+        git config --global user.name "workflow"
+        git config --global user.email "wokflow"
+      
     # Runs a set of commands using the runners shell
     - name: Install dependencies
       run: npm install
