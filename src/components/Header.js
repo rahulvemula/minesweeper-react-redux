@@ -25,7 +25,7 @@ function Header() {
               <strong className="textCenter"><p>How to play?</p></strong>
               <span>Contrary to popular belief, it's actually quite simple.</span>
               <ul>
-                <li> Click a square, you get a number. That number is the number of how many mines are surrounding it. If you find the mine, you can open "unopened" squares around it, opening more areas.</li>
+                <li> Click a square, the number displayed in it is the number of mines surrounding it. If there is no mine surrounding it, all the surrounding blocks will be opened for you.</li>
                 <li>Enabling the <i>flag mode</i> will flag the block rather than opening when you click on a block.</li>
                 <li>Open all the blocks with out mines to get chicken dinner. 😋</li>
               </ul>
