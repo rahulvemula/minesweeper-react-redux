@@ -27,9 +27,9 @@ function Header() {
               <ul>
                 <li> Click a square, the number displayed in it is the number of mines surrounding it. If there is no mine surrounding it, all the surrounding blocks will be opened for you.</li>
                 <li>Enabling the <i>flag mode</i> will flag the block rather than opening when you click on a block.</li>
-                <li>Open all the blocks with out mines to get chicken dinner. 😋</li>
+                <li>Open all the blocks with out mines to get chicken dinner. <span role="img" ariaLabel="emoji">😋</span></li>
               </ul>
-              <a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)" target="_blank"><span>Read More</span></a>
+              <a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)" target="_blank" rel="noopener noreferrer"><span>Read More</span></a>
             </div>}
           <span onClick={(e) => dispatch(toggleInstructions(e))} className="how" style={{ 'float': 'right' }}>?</span>
         </div>
