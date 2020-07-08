@@ -2,6 +2,12 @@
 
 Find the live version of the app [here](https://rahulvemula.github.io/minesweeper-react-redux/)
 
+## Features
+- Neumorphic UI
+- Dark mode
+- Works offline
+- Installable on mobile. Hit ok on "Add to home" pop-up on your mobile and voila!
+
 ## Learnings
 - React (using hooks in functional components)
 - Redux (using the redux store, actions and reducers)
