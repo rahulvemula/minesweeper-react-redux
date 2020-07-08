@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: git setup
-      run: /
+      run: |
         git config --global user.name "workflow"
         git config --global user.email "wokflow"
       
